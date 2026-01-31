@@ -217,7 +217,7 @@ export function CardImage({ onAddToCart, mode = 'display' }: CardImageProps) {
     ? menus?.filter(item => item.is_visible)
     : menus
 
-  const hiddenCount = menus?.filter(item => !item.is_visible).length || 0
+
 
   return (
     <div className="space-y-4">

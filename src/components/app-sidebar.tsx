@@ -8,12 +8,14 @@ import {
   IconInnerShadowTop,
   IconListDetails,
   IconReport,
-  IconSettings,
-  IconUsers,
+  IconUser,
+  IconChartBar,
+  IconHistory,
+  IconShoppingBag,
+  IconLayoutDashboard,
 } from "@tabler/icons-react"
 
 import { NavMain } from "@/components/nav-main"
-import { NavSecondary } from "@/components/nav-secondary"
 import { NavUser } from "@/components/nav-user"
 import { useSession } from "@/lib/store/useSession"
 import {

@@ -110,7 +110,7 @@ export function DataTable() {
             {isLoading ? (
               Array.from({ length: 5 }).map((_, i) => (
                 <TableRow key={i}>
-                  {columns.map((col, index) => (
+                  {columns.map((_, index) => (
                     <TableCell key={index}>
                       <Skeleton className="h-6 w-full" />
                     </TableCell>
